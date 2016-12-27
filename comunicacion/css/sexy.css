@@ -1,0 +1,92 @@
+body {
+	background: url('../img/background.jpg');
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+header {
+    padding: 60px 0;
+}
+header h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px 0 #fef5f3, 1px -1px 0 #fef5f3, -1px 1px 0 #fef5f3, 1px 1px 0 #fef5f3;
+    text-transform: uppercase;
+}
+header h1, header h2 {
+	font-weight: lighter;
+}
+p, header h1, header h2, #botones-idiomas, .navbar-brand {
+	cursor: default;
+}
+#botones-idiomas {
+	text-transform: capitalize;
+    color: rgba(255,255,255, 0.6);
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 5px;
+}
+#botones-idiomas a {
+    color: rgba(255,255,255, 0.6);
+}
+#botones-idiomas a:hover, #botones-idiomas .active {
+    color: rgba(255,255,255, 0.9);
+    text-decoration: none;
+}
+.content {
+	background: rgba(254, 245, 243, 0.15);
+	padding: 40px 0;
+}
+.nav-social>li>a {
+	display: inline-table;
+}
+.info {
+	padding: 30px 0;
+}
+.info:hover {
+	background: rgba(116, 61, 50, 0.2);
+}
+.info p {
+	max-width: 80%;
+    text-align: justify;
+    padding-top: 30px;
+    margin: auto;
+}
+.btn-default {
+	border: none;
+	min-width: 32%;
+}
+.btn-default:hover {
+	background: white;
+}
+.android:hover {
+	color: #a4c639;
+}
+.ios:hover {
+	color: #8a9597;
+}
+.web:hover {
+	color: #46b8da;
+}
+.nota {
+	margin: 60px auto;
+	margin-bottom: 35px;
+}
+.opa {
+	color: rgba(255,255,255, 0.4);
+}
+.navbar-brand a {
+	color: #777;
+	text-decoration: none;
+}
+.navbar-brand a:hover {
+	color: #333;
+}
+
+@media (max-width: 420px) {
+    header h1 {
+        font-size: 2em;
+    }
+}
